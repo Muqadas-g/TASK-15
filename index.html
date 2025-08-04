@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic FAQ Section</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="faq-container">
+        <div class="faq-header">
+            <h1>Frequently Asked Questions</h1>
+            <button class="theme-toggle" id="themeToggle">Dark Mode</button>
+        </div>
+
+        <div class="faq-controls">
+            <button class="control-btn" id="expandAll">Expand All</button>
+            <button class="control-btn" id="collapseAll">Collapse All</button>
+        </div>
+
+        <div class="faq-categories" id="faqCategories">
+            <!-- Categories will be added dynamically -->
+        </div>
+
+        <input type="text" class="search-box" id="searchBox" placeholder="Search questions...">
+
+        <div class="faq-list" id="faqList">
+            <!-- FAQ items will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
