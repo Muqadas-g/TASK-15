@@ -22,17 +22,8 @@
 | 📋 **Copy Answers** | One-click copy functionality |
 | 👍 **Feedback** | Rate answer helpfulness |
 
-##Interact with features:
-
-Diagram
-Code
-graph TD
-    A[Click Question] --> B[Answer Expands]
-    B --> C[Copy/Feedback]
-    D[Search] --> E[Filtered Results]
 
 ## 🛠️ Tech Stack
-```mermaid
 pie
     title Technologies Used
     "HTML5" : 35
